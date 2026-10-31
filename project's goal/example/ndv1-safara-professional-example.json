@@ -1,0 +1,3050 @@
+{
+  "sourceRow": {
+    "byteSize": 314167,
+    "cacheKey": "748e12f471fd8c893ad1d396caa64ad178f14eaf18c0570497af4c8fe7296ba1",
+    "mediaType": "application/pdf",
+    "projectId": "156d4756-55cf-491f-9fa1-bea3c37ecb84",
+    "documentId": "5b178308-31e1-497d-b859-14a08b2fcf55",
+    "memberState": "perceived",
+    "projectName": "Safara Professional Perception",
+    "derivedAssets": [
+      "derived/4ed9d136-d6e1-431f-97f0-c7167a5a35a3",
+      "derived/153792cf-7ac4-47e0-90db-f44a75a15a56",
+      "derived/a8d6fdf7-3df0-4ec3-a7c2-021fdc2a280e",
+      "derived/e9041fa4-2095-4171-8073-506009c5763d",
+      "derived/b198c4f9-e155-4c8b-b7e2-43315bbc408f"
+    ],
+    "invalidatedAt": null,
+    "cacheCreatedAt": "2026-10-12T19:52:12.391096+00:00",
+    "executionState": "completed",
+    "cacheCapability": "atlas.document.perceive",
+    "contractVersion": "v1",
+    "stableProjectId": "safara-professional-perception",
+    "originalFilename": "Safara_Buyer_Business_PRD_Professional.pdf",
+    "capabilityIdentity": "docling-digital-pdf:atlas-digital-pdf-run-003-capture-v1",
+    "cacheContractVersion": "v1",
+    "documentSourceSha256": "2f537e8bb7ea4f69fb906af03d0265e2a986a0f15c2dbedbbace5328cd40e7df",
+    "completionFingerprint": "a1701b0a66592d4d8c8638177f3cd612bfb564add29354de20de149d83a1392e",
+    "perceptionExecutionId": "39cc9cad-9d74-4cfa-8eb6-9c435d03022e",
+    "cacheCapabilityIdentity": "docling-digital-pdf:atlas-digital-pdf-run-003-capture-v1"
+  },
+  "normalizedDocument": {
+    "pages": [
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 1,
+        "tables": [
+          {
+            "id": "docling-table-p1-1",
+            "content": "| TUJUAN | Aplikasi operasional harian untuk administrasi jemaah umrah |\n| RUANG LINGKUP | Satu perusahaan dan satu cabang |\n| PENGGUNA | Owner/Admin, Finance, dan Operations |\n| TANGGAL DOKUMEN | 27 Juli 2026 |\n\n<!-- atlas-docling-grid-v1:[[{\"row\":0,\"column\":0,\"text\":\"TUJUAN\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":1,\"text\":\"Aplikasi operasional harian untuk administrasi jemaah umrah\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":1,\"column\":0,\"text\":\"RUANG LINGKUP\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":1,\"text\":\"Satu perusahaan dan satu cabang\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":2,\"column\":0,\"text\":\"PENGGUNA\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":1,\"text\":\"Owner/Admin, Finance, dan Operations\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":3,\"column\":0,\"text\":\"TANGGAL DOKUMEN\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":1,\"text\":\"27 Juli 2026\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}]] -->",
+            "boundingBox": {
+              "x": 50.519,
+              "y": 291.157,
+              "width": 494.41,
+              "height": 165.496
+            }
+          }
+        ],
+        "textBlocks": [
+          {
+            "id": "docling-text-p1-1",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p1-2",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p1-3",
+            "kind": "section_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 51,
+              "y": 161.146,
+              "width": 186.747,
+              "height": 10.007
+            }
+          },
+          {
+            "id": "docling-text-p1-4",
+            "kind": "section_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 205.152,
+              "width": 133.536,
+              "height": 29.11
+            }
+          },
+          {
+            "id": "docling-text-p1-5",
+            "kind": "section_header",
+            "text": "Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 248.147,
+              "width": 230.811,
+              "height": 13.191
+            }
+          },
+          {
+            "id": "docling-text-p1-6",
+            "kind": "text",
+            "text": "Dokumen ini menjelaskan kebutuhan bisnis dan hasil yang kami harapkan.",
+            "boundingBox": {
+              "x": 51,
+              "y": 523.146,
+              "width": 386.661,
+              "height": 10.007
+            }
+          },
+          {
+            "id": "docling-text-p1-7",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p1-8",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 1",
+            "boundingBox": {
+              "x": 483.156,
+              "y": 802.463,
+              "width": 61.119,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": []
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 2,
+        "tables": [],
+        "textBlocks": [
+          {
+            "id": "docling-text-p2-9",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p2-10",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p2-11",
+            "kind": "section_header",
+            "text": "Konteks",
+            "boundingBox": {
+              "x": 51,
+              "y": 67.433,
+              "width": 63.767,
+              "height": 14.1
+            }
+          },
+          {
+            "id": "docling-text-p2-12",
+            "kind": "text",
+            "text": "Kami membutuhkan aplikasi web internal untuk mengelola administrasi jemaah umrah dari pendaftaran sampai keberangkatan.",
+            "boundingBox": {
+              "x": 51,
+              "y": 94.746,
+              "width": 472.253,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p2-13",
+            "kind": "text",
+            "text": "Saat ini informasi sering tersebar di spreadsheet, chat, bukti transfer, dan folder dokumen yang berbeda. Hal ini menyulitkan tim untuk mengetahui:",
+            "boundingBox": {
+              "x": 51,
+              "y": 133.346,
+              "width": 492.326,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p2-14",
+            "kind": "list_item",
+            "text": "Jemaah terdaftar pada keberangkatan yang mana.",
+            "boundingBox": {
+              "x": 58,
+              "y": 171.946,
+              "width": 233.846,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-15",
+            "kind": "list_item",
+            "text": "Sisa kuota setiap keberangkatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 190.846,
+              "width": 155.203,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-16",
+            "kind": "list_item",
+            "text": "Siapa yang sudah atau belum melunasi pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 209.746,
+              "width": 245.165,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-17",
+            "kind": "list_item",
+            "text": "Dokumen apa saja yang belum lengkap atau perlu diperbaiki.",
+            "boundingBox": {
+              "x": 58,
+              "y": 228.646,
+              "width": 283.229,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-18",
+            "kind": "list_item",
+            "text": "Status paspor, visa, asuransi, dan tiket.",
+            "boundingBox": {
+              "x": 58,
+              "y": 247.546,
+              "width": 181.344,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-19",
+            "kind": "list_item",
+            "text": "Siapa yang sudah siap masuk ke manifest keberangkatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 266.446,
+              "width": 267.264,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-20",
+            "kind": "text",
+            "text": "Aplikasi diharapkan menjadi satu tempat kerja bersama agar Owner, Finance, dan Operations melihat informasi yang sama dan tidak perlu melakukan pengecekan ulang secara manual dari banyak sumber.",
+            "boundingBox": {
+              "x": 51,
+              "y": 285.346,
+              "width": 466.704,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p2-21",
+            "kind": "section_header",
+            "text": "Tujuan Bisnis",
+            "boundingBox": {
+              "x": 51,
+              "y": 334.633,
+              "width": 106.594,
+              "height": 14.1
+            }
+          },
+          {
+            "id": "docling-text-p2-22",
+            "kind": "list_item",
+            "text": "Mengurangi kesalahan pencatatan data jemaah dan pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 361.946,
+              "width": 303.811,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-23",
+            "kind": "list_item",
+            "text": "Mempermudah pemantauan kuota keberangkatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 380.846,
+              "width": 238.454,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-24",
+            "kind": "list_item",
+            "text": "Mempercepat pemeriksaan kelengkapan dokumen.",
+            "boundingBox": {
+              "x": 58,
+              "y": 399.746,
+              "width": 239.002,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-25",
+            "kind": "list_item",
+            "text": "Mengetahui alasan jemaah belum siap berangkat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 418.646,
+              "width": 232.013,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-26",
+            "kind": "list_item",
+            "text": "Memastikan hanya jemaah yang memenuhi seluruh persyaratan yang masuk ke manifest.",
+            "boundingBox": {
+              "x": 58,
+              "y": 437.546,
+              "width": 412.166,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-27",
+            "kind": "list_item",
+            "text": "Menyediakan laporan yang dapat digunakan oleh manajemen dan tim operasional.",
+            "boundingBox": {
+              "x": 58,
+              "y": 456.446,
+              "width": 381.542,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p2-28",
+            "kind": "section_header",
+            "text": "Pengguna",
+            "boundingBox": {
+              "x": 51,
+              "y": 490.033,
+              "width": 76.399,
+              "height": 14.1
+            }
+          },
+          {
+            "id": "docling-text-p2-29",
+            "kind": "section_header",
+            "text": "Owner/Admin",
+            "boundingBox": {
+              "x": 51,
+              "y": 531.946,
+              "width": 82.298,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p2-30",
+            "kind": "text",
+            "text": "Dapat melihat dan mengelola seluruh data, termasuk pengguna, paket, keberangkatan, jemaah, pembayaran, dokumen, kesiapan, manifest, dan laporan.",
+            "boundingBox": {
+              "x": 51,
+              "y": 555.346,
+              "width": 434.89,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p2-31",
+            "kind": "section_header",
+            "text": "Finance",
+            "boundingBox": {
+              "x": 51,
+              "y": 608.546,
+              "width": 45.361,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p2-32",
+            "kind": "text",
+            "text": "Dapat melihat tagihan jemaah, mencatat pembayaran, memeriksa bukti pembayaran, menerima atau menolak pembayaran, serta melihat laporan pembayaran.",
+            "boundingBox": {
+              "x": 51,
+              "y": 631.946,
+              "width": 458.89,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p2-33",
+            "kind": "section_header",
+            "text": "Operations",
+            "boundingBox": {
+              "x": 51,
+              "y": 685.146,
+              "width": 65.403,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p2-34",
+            "kind": "text",
+            "text": "Dapat melihat data jemaah, memeriksa dokumen, memperbarui status paspor, visa, asuransi, dan tiket, memantau kesiapan, serta membuat manifest.",
+            "boundingBox": {
+              "x": 51,
+              "y": 708.546,
+              "width": 467.914,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p2-35",
+            "kind": "text",
+            "text": "Setiap pengguna hanya boleh melihat dan menjalankan pekerjaan yang sesuai dengan tanggung jawabnya. Pengguna yang sudah dinonaktifkan tidak boleh masuk ke aplikasi.",
+            "boundingBox": {
+              "x": 51,
+              "y": 747.146,
+              "width": 486.874,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p2-36",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p2-37",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 2",
+            "boundingBox": {
+              "x": 483.156,
+              "y": 802.463,
+              "width": 61.119,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": []
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 3,
+        "tables": [],
+        "textBlocks": [
+          {
+            "id": "docling-text-p3-38",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p3-39",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p3-40",
+            "kind": "section_header",
+            "text": "Alur Utama",
+            "boundingBox": {
+              "x": 51,
+              "y": 67.433,
+              "width": 91.31,
+              "height": 14.1
+            }
+          },
+          {
+            "id": "docling-text-p3-41",
+            "kind": "list_item",
+            "text": "Admin membuat paket umrah dan jadwal keberangkatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 94.746,
+              "width": 271.814,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p3-42",
+            "kind": "list_item",
+            "text": "Admin mencatat data jemaah dan mendaftarkannya ke jadwal yang dipilih.",
+            "boundingBox": {
+              "x": 58,
+              "y": 113.646,
+              "width": 348.461,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p3-43",
+            "kind": "list_item",
+            "text": "Sistem menampilkan tagihan berdasarkan harga saat pendaftaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 132.546,
+              "width": 313.133,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p3-44",
+            "kind": "list_item",
+            "text": "Finance mencatat cicilan dan memeriksa bukti pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 151.446,
+              "width": 281.05,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p3-45",
+            "kind": "list_item",
+            "text": "Admin atau Operations mengunggah dan memeriksa dokumen jemaah.",
+            "boundingBox": {
+              "x": 58,
+              "y": 170.346,
+              "width": 336.086,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p3-46",
+            "kind": "list_item",
+            "text": "Operations memperbarui status paspor, visa, asuransi, dan tiket.",
+            "boundingBox": {
+              "x": 58,
+              "y": 189.246,
+              "width": 302.88,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p3-47",
+            "kind": "list_item",
+            "text": "Aplikasi menampilkan apakah jemaah sudah siap atau masih terhambat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 208.146,
+              "width": 337.91,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p3-48",
+            "kind": "list_item",
+            "text": "Jemaah yang sudah memenuhi seluruh syarat dapat dimasukkan ke manifest.",
+            "boundingBox": {
+              "x": 58,
+              "y": 227.046,
+              "width": 361.171,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p3-49",
+            "kind": "list_item",
+            "text": "Owner melihat ringkasan dan laporan operasional.",
+            "boundingBox": {
+              "x": 58,
+              "y": 245.946,
+              "width": 240.038,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p3-50",
+            "kind": "section_header",
+            "text": "Gambar 1. Alur operasional administrasi jemaah umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 575.788,
+              "width": 261.188,
+              "height": 8.551
+            }
+          },
+          {
+            "id": "docling-text-p3-51",
+            "kind": "text",
+            "text": "Sumber: Diolah dari Safara - Sistem Administrasi Travel Umrah (2026), bagian \"Alur Utama\".",
+            "boundingBox": {
+              "x": 51,
+              "y": 593.688,
+              "width": 342.84,
+              "height": 7.278
+            }
+          },
+          {
+            "id": "docling-text-p3-52",
+            "kind": "text",
+            "text": "Catatan: Setiap tahap dijalankan sesuai kewenangan pengguna yang tercantum pada dokumen utama.",
+            "boundingBox": {
+              "x": 51,
+              "y": 608.388,
+              "width": 387.448,
+              "height": 7.278
+            }
+          },
+          {
+            "id": "docling-text-p3-53",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p3-54",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 3",
+            "boundingBox": {
+              "x": 483.156,
+              "y": 802.463,
+              "width": 61.119,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": [
+          {
+            "id": "docling-visual-p3-1",
+            "assetRef": "derived/4ed9d136-d6e1-431f-97f0-c7167a5a35a3",
+            "boundingBox": {
+              "x": 61.85,
+              "y": 296.07,
+              "width": 471.394,
+              "height": 242.369
+            }
+          }
+        ]
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 4,
+        "tables": [
+          {
+            "id": "docling-table-p4-2",
+            "content": "| Kode | Kuota | Aktif | Sisa | Status |\n| SF-081 | 40 | 34 | 6 | Terbuka |\n| SF-082 | 32 | 32 | 0 | Penuh |\n| SF-083 | 45 | 19 | 26 | Terbuka |\n\n<!-- atlas-docling-grid-v1:[[{\"row\":0,\"column\":0,\"text\":\"Kode\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":1,\"text\":\"Kuota\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":2,\"text\":\"Aktif\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":3,\"text\":\"Sisa\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":4,\"text\":\"Status\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":1,\"column\":0,\"text\":\"SF-081\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":1,\"text\":\"40\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":2,\"text\":\"34\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":3,\"text\":\"6\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":4,\"text\":\"Terbuka\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":2,\"column\":0,\"text\":\"SF-082\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":1,\"text\":\"32\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":2,\"text\":\"32\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":3,\"text\":\"0\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":4,\"text\":\"Penuh\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":3,\"column\":0,\"text\":\"SF-083\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":1,\"text\":\"45\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":2,\"text\":\"19\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":3,\"text\":\"26\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":4,\"text\":\"Terbuka\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}]] -->",
+            "boundingBox": {
+              "x": 49.846,
+              "y": 297.456,
+              "width": 494.79,
+              "height": 135.162
+            }
+          }
+        ],
+        "textBlocks": [
+          {
+            "id": "docling-text-p4-55",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p4-56",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p4-57",
+            "kind": "section_header",
+            "text": "Kebutuhan",
+            "boundingBox": {
+              "x": 51,
+              "y": 67.433,
+              "width": 87.203,
+              "height": 14.1
+            }
+          },
+          {
+            "id": "docling-text-p4-58",
+            "kind": "section_header",
+            "text": "1. Paket dan Jadwal Keberangkatan",
+            "boundingBox": {
+              "x": 51,
+              "y": 109.346,
+              "width": 207.64,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p4-59",
+            "kind": "list_item",
+            "text": "Admin dapat membuat, melihat, mengubah, dan menonaktifkan paket umrah.",
+            "boundingBox": {
+              "x": 58,
+              "y": 132.746,
+              "width": 360.374,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p4-60",
+            "kind": "list_item",
+            "text": "Informasi paket minimal mencakup nama paket, durasi, harga dasar, deskripsi, dan status aktif.",
+            "boundingBox": {
+              "x": 58,
+              "y": 151.646,
+              "width": 437.837,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p4-61",
+            "kind": "list_item",
+            "text": "Setiap paket dapat memiliki satu atau lebih jadwal keberangkatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 170.546,
+              "width": 305.578,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p4-62",
+            "kind": "list_item",
+            "text": "Informasi jadwal minimal mencakup kode keberangkatan, tanggal berangkat, tanggal pulang, kota asal, kuota, harga, maskapai, nomor penerbangan, hotel Makkah, hotel Madinah, dan status keberangkatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 189.446,
+              "width": 479.155,
+              "height": 23.633
+            }
+          },
+          {
+            "id": "docling-text-p4-63",
+            "kind": "list_item",
+            "text": "Aplikasi menampilkan jumlah jemaah terdaftar dan sisa kuota.",
+            "boundingBox": {
+              "x": 58,
+              "y": 223.246,
+              "width": 287.722,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p4-64",
+            "kind": "list_item",
+            "text": "Pendaftaran baru tidak dapat dilakukan apabila jadwal sudah ditutup atau kuota sudah penuh.",
+            "boundingBox": {
+              "x": 58,
+              "y": 242.146,
+              "width": 433.536,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p4-65",
+            "kind": "caption",
+            "text": "Tabel 1. Ringkasan kuota dan pendaftaran aktif per jadwal keberangkatan",
+            "boundingBox": {
+              "x": 51,
+              "y": 278.988,
+              "width": 350.329,
+              "height": 8.551
+            }
+          },
+          {
+            "id": "docling-text-p4-66",
+            "kind": "text",
+            "text": "Sumber: Contoh data operasional berdasarkan Safara - Sistem Administrasi Travel Umrah (2026), bagian \"1. Paket dan Jadwal Keberangkatan\".",
+            "boundingBox": {
+              "x": 51,
+              "y": 441.888,
+              "width": 469.08,
+              "height": 18.978
+            }
+          },
+          {
+            "id": "docling-text-p4-67",
+            "kind": "text",
+            "text": "Catatan: Data tabel bersifat contoh; jadwal penuh tidak menerima pendaftaran baru.",
+            "boundingBox": {
+              "x": 51,
+              "y": 468.288,
+              "width": 318.4,
+              "height": 7.278
+            }
+          },
+          {
+            "id": "docling-text-p4-68",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p4-69",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 4",
+            "boundingBox": {
+              "x": 483.156,
+              "y": 802.463,
+              "width": 61.119,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": []
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 5,
+        "tables": [],
+        "textBlocks": [
+          {
+            "id": "docling-text-p5-70",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p5-71",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p5-72",
+            "kind": "caption",
+            "text": "Gambar 2. Perbandingan kuota dan pendaftaran aktif",
+            "boundingBox": {
+              "x": 51,
+              "y": 336.682,
+              "width": 252.954,
+              "height": 8.551
+            }
+          },
+          {
+            "id": "docling-text-p5-73",
+            "kind": "text",
+            "text": "Sumber: Diolah dari data contoh pada Tabel 1, mengacu pada Safara - Sistem Administrasi Travel Umrah (2026), bagian \"1. Paket dan Jadwal Keberangkatan\".",
+            "boundingBox": {
+              "x": 51,
+              "y": 354.582,
+              "width": 482.48,
+              "height": 18.978
+            }
+          },
+          {
+            "id": "docling-text-p5-74",
+            "kind": "section_header",
+            "text": "2. Data Jemaah",
+            "boundingBox": {
+              "x": 51,
+              "y": 406.04,
+              "width": 88.078,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p5-75",
+            "kind": "list_item",
+            "text": "Admin dapat menambah, melihat, mengubah, mencari, dan menonaktifkan data jemaah.",
+            "boundingBox": {
+              "x": 58,
+              "y": 429.439,
+              "width": 408.278,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-76",
+            "kind": "list_item",
+            "text": "Informasi minimum jemaah:",
+            "boundingBox": {
+              "x": 58,
+              "y": 448.339,
+              "width": 134.688,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-77",
+            "kind": "text",
+            "text": "Nama sesuai paspor.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 467.239,
+              "width": 94.579,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-78",
+            "kind": "text",
+            "text": "NIK.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 485.139,
+              "width": 19.066,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-79",
+            "kind": "text",
+            "text": "Jenis kelamin.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 503.039,
+              "width": 61.901,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-80",
+            "kind": "text",
+            "text": "Tempat dan tanggal lahir.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 520.939,
+              "width": 116.458,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-81",
+            "kind": "text",
+            "text": "Nomor telepon.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 538.839,
+              "width": 71.338,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-82",
+            "kind": "text",
+            "text": "Alamat.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 556.739,
+              "width": 34.397,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-83",
+            "kind": "text",
+            "text": "Nomor dan masa berlaku paspor.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 574.639,
+              "width": 151.747,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-84",
+            "kind": "text",
+            "text": "Nama serta nomor kontak darurat.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 592.539,
+              "width": 157.766,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-85",
+            "kind": "list_item",
+            "text": "NIK harus terdiri dari 16 angka apabila diisi.",
+            "boundingBox": {
+              "x": 58,
+              "y": 610.439,
+              "width": 203.424,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-86",
+            "kind": "list_item",
+            "text": "Aplikasi harus memberikan peringatan apabila NIK atau nomor paspor sudah digunakan oleh jemaah lain.",
+            "boundingBox": {
+              "x": 58,
+              "y": 629.339,
+              "width": 485.702,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-87",
+            "kind": "list_item",
+            "text": "Pada halaman daftar, NIK dan nomor paspor tidak perlu ditampilkan secara penuh.",
+            "boundingBox": {
+              "x": 58,
+              "y": 648.239,
+              "width": 381.878,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-88",
+            "kind": "section_header",
+            "text": "3. Pendaftaran Jemaah",
+            "boundingBox": {
+              "x": 51,
+              "y": 681.74,
+              "width": 133.368,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p5-89",
+            "kind": "list_item",
+            "text": "Admin dapat memilih jemaah dan mendaftarkannya ke jadwal keberangkatan yang masih terbuka.",
+            "boundingBox": {
+              "x": 58,
+              "y": 705.139,
+              "width": 452.256,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-90",
+            "kind": "list_item",
+            "text": "Setiap pendaftaran memiliki nomor pendaftaran yang berbeda.",
+            "boundingBox": {
+              "x": 58,
+              "y": 724.039,
+              "width": 292.426,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-91",
+            "kind": "list_item",
+            "text": "Harga yang berlaku saat pendaftaran harus disimpan sebagai tagihan jemaah.",
+            "boundingBox": {
+              "x": 58,
+              "y": 742.939,
+              "width": 360.624,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-92",
+            "kind": "list_item",
+            "text": "Perubahan harga paket setelah pendaftaran tidak boleh mengubah tagihan yang sudah disepakati.",
+            "boundingBox": {
+              "x": 58,
+              "y": 761.839,
+              "width": 454.099,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p5-93",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p5-94",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 5",
+            "boundingBox": {
+              "x": 483.156,
+              "y": 802.463,
+              "width": 61.119,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": [
+          {
+            "id": "docling-visual-p5-2",
+            "assetRef": "derived/153792cf-7ac4-47e0-90db-f44a75a15a56",
+            "boundingBox": {
+              "x": 81.772,
+              "y": 83.262,
+              "width": 443.487,
+              "height": 215.983
+            }
+          }
+        ]
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 6,
+        "tables": [
+          {
+            "id": "docling-table-p6-3",
+            "content": "| Referensi | Nominal | Status | Dampak |\n| TRX-101 | Rp10.000.000 | Diterima | Dihitung |\n| TRX-102 | Rp5.000.000 | Menunggu Pemeriksaan | Belum dihitung |\n| TRX-103 | Rp2.000.000 | Ditolak | Tidak dihitung |\n| TRX-104 | Rp8.000.000 | Diterima | Dihitung |\n\n<!-- atlas-docling-grid-v1:[[{\"row\":0,\"column\":0,\"text\":\"Referensi\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":1,\"text\":\"Nominal\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":2,\"text\":\"Status\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":3,\"text\":\"Dampak\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":1,\"column\":0,\"text\":\"TRX-101\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":1,\"text\":\"Rp10.000.000\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":2,\"text\":\"Diterima\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":3,\"text\":\"Dihitung\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":2,\"column\":0,\"text\":\"TRX-102\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":1,\"text\":\"Rp5.000.000\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":2,\"text\":\"Menunggu Pemeriksaan\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":3,\"text\":\"Belum dihitung\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":3,\"column\":0,\"text\":\"TRX-103\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":1,\"text\":\"Rp2.000.000\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":2,\"text\":\"Ditolak\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":3,\"text\":\"Tidak dihitung\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":4,\"column\":0,\"text\":\"TRX-104\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":4,\"column\":1,\"text\":\"Rp8.000.000\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":4,\"column\":2,\"text\":\"Diterima\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":4,\"column\":3,\"text\":\"Dihitung\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}]] -->",
+            "boundingBox": {
+              "x": 49.885,
+              "y": 410.548,
+              "width": 494.624,
+              "height": 168.699
+            }
+          }
+        ],
+        "textBlocks": [
+          {
+            "id": "docling-text-p6-95",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p6-96",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p6-97",
+            "kind": "list_item",
+            "text": "Jemaah yang sama tidak boleh memiliki dua pendaftaran aktif pada jadwal keberangkatan yang sama.",
+            "boundingBox": {
+              "x": 58,
+              "y": 65.746,
+              "width": 467.117,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p6-98",
+            "kind": "list_item",
+            "text": "Pendaftaran dapat dibatalkan dengan alasan yang tercatat, tetapi riwayatnya tetap dapat dilihat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 84.646,
+              "width": 442.234,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p6-99",
+            "kind": "section_header",
+            "text": "4. Tagihan dan Pembayaran",
+            "boundingBox": {
+              "x": 51,
+              "y": 118.146,
+              "width": 162.583,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p6-100",
+            "kind": "list_item",
+            "text": "Setiap pendaftaran menampilkan total tagihan, total pembayaran yang sudah diterima, dan sisa pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 141.546,
+              "width": 439.642,
+              "height": 23.633
+            }
+          },
+          {
+            "id": "docling-text-p6-101",
+            "kind": "list_item",
+            "text": "Finance dapat mencatat pembayaran dengan informasi tanggal, nominal, cara pembayaran, nomor referensi, catatan, dan bukti pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 175.346,
+              "width": 455.165,
+              "height": 23.633
+            }
+          },
+          {
+            "id": "docling-text-p6-102",
+            "kind": "list_item",
+            "text": "Bukti pembayaran dapat berupa PDF atau gambar.",
+            "boundingBox": {
+              "x": 58,
+              "y": 209.146,
+              "width": 236.083,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p6-103",
+            "kind": "list_item",
+            "text": "Pembayaran baru berstatus Menunggu Pemeriksaan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 228.046,
+              "width": 247.776,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p6-104",
+            "kind": "list_item",
+            "text": "Finance dapat mengubahnya menjadi Diterima atau Ditolak.",
+            "boundingBox": {
+              "x": 58,
+              "y": 246.946,
+              "width": 277.68,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p6-105",
+            "kind": "list_item",
+            "text": "Pembayaran yang ditolak wajib memiliki alasan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 265.846,
+              "width": 222.326,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p6-106",
+            "kind": "list_item",
+            "text": "Hanya pembayaran berstatus Diterima yang mengurangi sisa pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 284.746,
+              "width": 346.061,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p6-107",
+            "kind": "list_item",
+            "text": "Nomor referensi yang sama tidak boleh digunakan untuk menerima pembayaran dua kali.",
+            "boundingBox": {
+              "x": 58,
+              "y": 303.646,
+              "width": 413.578,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p6-108",
+            "kind": "list_item",
+            "text": "Status pembayaran jemaah ditampilkan sebagai Belum Bayar, Sebagian, atau Lunas.",
+            "boundingBox": {
+              "x": 58,
+              "y": 322.546,
+              "width": 387.341,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p6-109",
+            "kind": "section_header",
+            "text": "Sisa Pembayaran = Total Tagihan - Total Pembayaran Diterima",
+            "boundingBox": {
+              "x": 51,
+              "y": 347.56,
+              "width": 311.19,
+              "height": 9.097
+            }
+          },
+          {
+            "id": "docling-text-p6-110",
+            "kind": "caption",
+            "text": "Tabel 2. Contoh ringkasan pembayaran dan dampaknya terhadap tagihan",
+            "boundingBox": {
+              "x": 51,
+              "y": 392.388,
+              "width": 347.217,
+              "height": 8.551
+            }
+          },
+          {
+            "id": "docling-text-p6-111",
+            "kind": "text",
+            "text": "Sumber: Contoh transaksi yang disusun menurut Safara - Sistem Administrasi Travel Umrah (2026), bagian \"4. Tagihan dan Pembayaran\".",
+            "boundingBox": {
+              "x": 51,
+              "y": 588.788,
+              "width": 460.432,
+              "height": 18.978
+            }
+          },
+          {
+            "id": "docling-text-p6-112",
+            "kind": "text",
+            "text": "Catatan: Total tagihan Rp35.000.000; diterima Rp18.000.000; sisa Rp17.000.000. Nominal adalah data contoh.",
+            "boundingBox": {
+              "x": 51,
+              "y": 615.188,
+              "width": 409.048,
+              "height": 7.278
+            }
+          },
+          {
+            "id": "docling-text-p6-113",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p6-114",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 6",
+            "boundingBox": {
+              "x": 483.156,
+              "y": 802.463,
+              "width": 61.119,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": []
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 7,
+        "tables": [],
+        "textBlocks": [
+          {
+            "id": "docling-text-p7-115",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p7-116",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p7-117",
+            "kind": "section_header",
+            "text": "Gambar 3. Perubahan status pemeriksaan pembayaran",
+            "boundingBox": {
+              "x": 51,
+              "y": 298.864,
+              "width": 259.769,
+              "height": 8.551
+            }
+          },
+          {
+            "id": "docling-text-p7-118",
+            "kind": "text",
+            "text": "Sumber: Diolah dari Safara - Sistem Administrasi Travel Umrah (2026), bagian \"4. Tagihan dan Pembayaran\".",
+            "boundingBox": {
+              "x": 51,
+              "y": 316.764,
+              "width": 405.296,
+              "height": 7.278
+            }
+          },
+          {
+            "id": "docling-text-p7-119",
+            "kind": "section_header",
+            "text": "5. Dokumen Jemaah",
+            "boundingBox": {
+              "x": 51,
+              "y": 356.522,
+              "width": 117.14,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p7-120",
+            "kind": "list_item",
+            "text": "Setiap jemaah memiliki daftar dokumen yang perlu dilengkapi.",
+            "boundingBox": {
+              "x": 58,
+              "y": 379.921,
+              "width": 289.354,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-121",
+            "kind": "list_item",
+            "text": "Daftar awal mencakup KTP, KK, paspor, pas foto, dan dokumen vaksin atau kesehatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 398.821,
+              "width": 395.856,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-122",
+            "kind": "list_item",
+            "text": "Dokumen pernikahan atau mahram dapat diwajibkan hanya untuk jemaah tertentu.",
+            "boundingBox": {
+              "x": 58,
+              "y": 417.721,
+              "width": 384.797,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-123",
+            "kind": "list_item",
+            "text": "Admin atau Operations dapat menambahkan, melihat, mengganti, dan memeriksa dokumen.",
+            "boundingBox": {
+              "x": 58,
+              "y": 436.621,
+              "width": 427.469,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-124",
+            "kind": "list_item",
+            "text": "Status dokumen:",
+            "boundingBox": {
+              "x": 58,
+              "y": 455.521,
+              "width": 82.387,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-125",
+            "kind": "text",
+            "text": "Belum Ada.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 474.421,
+              "width": 51.533,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-126",
+            "kind": "text",
+            "text": "Menunggu Pemeriksaan.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 492.321,
+              "width": 113.213,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-127",
+            "kind": "text",
+            "text": "Valid.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 510.221,
+              "width": 24.576,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-128",
+            "kind": "text",
+            "text": "Ditolak.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 528.121,
+              "width": 34.32,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-129",
+            "kind": "text",
+            "text": "Kedaluwarsa.",
+            "boundingBox": {
+              "x": 78.496,
+              "y": 546.021,
+              "width": 60.509,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-130",
+            "kind": "list_item",
+            "text": "Dokumen yang ditolak wajib memiliki alasan agar dapat diperbaiki.",
+            "boundingBox": {
+              "x": 58,
+              "y": 563.921,
+              "width": 308.678,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-131",
+            "kind": "list_item",
+            "text": "Dokumen lama dan hasil pemeriksaan sebelumnya tetap dapat dilihat sebagai riwayat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 582.821,
+              "width": 397.651,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-132",
+            "kind": "list_item",
+            "text": "Dokumen jemaah bersifat rahasia dan hanya dapat dilihat oleh pengguna yang memiliki kewenangan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 601.721,
+              "width": 467.395,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p7-133",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p7-134",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 7",
+            "boundingBox": {
+              "x": 483.156,
+              "y": 802.463,
+              "width": 61.119,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": [
+          {
+            "id": "docling-visual-p7-3",
+            "assetRef": "derived/a8d6fdf7-3df0-4ec3-a7c2-021fdc2a280e",
+            "boundingBox": {
+              "x": 79.382,
+              "y": 89.983,
+              "width": 436.532,
+              "height": 163.894
+            }
+          }
+        ]
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 8,
+        "tables": [],
+        "textBlocks": [
+          {
+            "id": "docling-text-p8-135",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p8-136",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p8-137",
+            "kind": "section_header",
+            "text": "Gambar 4. Rancangan tampilan pemeriksaan dokumen jemaah",
+            "boundingBox": {
+              "x": 51,
+              "y": 387.654,
+              "width": 296.777,
+              "height": 8.551
+            }
+          },
+          {
+            "id": "docling-text-p8-138",
+            "kind": "text",
+            "text": "Sumber: Rancangan tampilan berdasarkan Safara - Sistem Administrasi Travel Umrah (2026), bagian \"5. Dokumen Jemaah\".",
+            "boundingBox": {
+              "x": 51,
+              "y": 405.553,
+              "width": 461.856,
+              "height": 7.278
+            }
+          },
+          {
+            "id": "docling-text-p8-139",
+            "kind": "text",
+            "text": "Catatan: Informasi nama, registrasi, dan pemeriksaan pada gambar merupakan data contoh.",
+            "boundingBox": {
+              "x": 51,
+              "y": 420.253,
+              "width": 349.656,
+              "height": 7.278
+            }
+          },
+          {
+            "id": "docling-text-p8-140",
+            "kind": "section_header",
+            "text": "6. Status Perjalanan dan Kesiapan",
+            "boundingBox": {
+              "x": 51,
+              "y": 460.012,
+              "width": 198.104,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p8-141",
+            "kind": "text",
+            "text": "Kesiapan jemaah ditentukan dari enam bagian:",
+            "boundingBox": {
+              "x": 51,
+              "y": 483.411,
+              "width": 213.13,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-142",
+            "kind": "list_item",
+            "text": "Pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 506.711,
+              "width": 65.731,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-143",
+            "kind": "list_item",
+            "text": "Dokumen wajib.",
+            "boundingBox": {
+              "x": 58,
+              "y": 525.611,
+              "width": 79.162,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-144",
+            "kind": "list_item",
+            "text": "Paspor.",
+            "boundingBox": {
+              "x": 58,
+              "y": 544.511,
+              "width": 40.147,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-145",
+            "kind": "list_item",
+            "text": "Visa.",
+            "boundingBox": {
+              "x": 58,
+              "y": 563.411,
+              "width": 26.899,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-146",
+            "kind": "list_item",
+            "text": "Asuransi.",
+            "boundingBox": {
+              "x": 58,
+              "y": 582.311,
+              "width": 47.702,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-147",
+            "kind": "list_item",
+            "text": "Tiket.",
+            "boundingBox": {
+              "x": 58,
+              "y": 601.211,
+              "width": 30.499,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-148",
+            "kind": "text",
+            "text": "Jemaah berstatus Siap hanya apabila:",
+            "boundingBox": {
+              "x": 51,
+              "y": 620.111,
+              "width": 168.49,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-149",
+            "kind": "list_item",
+            "text": "Sisa pembayaran sudah nol.",
+            "boundingBox": {
+              "x": 58,
+              "y": 643.411,
+              "width": 133.018,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-150",
+            "kind": "list_item",
+            "text": "Seluruh dokumen wajib berstatus Valid.",
+            "boundingBox": {
+              "x": 58,
+              "y": 662.311,
+              "width": 185.203,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-151",
+            "kind": "list_item",
+            "text": "Paspor tersedia dan masih memenuhi ketentuan perjalanan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 681.211,
+              "width": 279.725,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-152",
+            "kind": "list_item",
+            "text": "Visa berstatus Disetujui.",
+            "boundingBox": {
+              "x": 58,
+              "y": 700.111,
+              "width": 114.403,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-153",
+            "kind": "list_item",
+            "text": "Asuransi berstatus Terbit.",
+            "boundingBox": {
+              "x": 58,
+              "y": 719.011,
+              "width": 121.987,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-154",
+            "kind": "list_item",
+            "text": "Tiket berstatus Terbit.",
+            "boundingBox": {
+              "x": 58,
+              "y": 737.911,
+              "width": 104.784,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p8-155",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p8-156",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 8",
+            "boundingBox": {
+              "x": 483.156,
+              "y": 802.463,
+              "width": 61.119,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": [
+          {
+            "id": "docling-visual-p8-4",
+            "assetRef": "derived/e9041fa4-2095-4171-8073-506009c5763d",
+            "boundingBox": {
+              "x": 49.842,
+              "y": 99.858,
+              "width": 494.831,
+              "height": 273.945
+            }
+          }
+        ]
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 9,
+        "tables": [
+          {
+            "id": "docling-table-p9-4",
+            "content": "| Komponen | Kondisi | Evaluasi |\n| Pembayaran | Lunas | Memenuhi |\n| Dokumen wajib | Seluruhnya Valid | Memenuhi |\n| Paspor | Memenuhi ketentuan | Memenuhi |\n| Visa | Belum Disetujui | Penghambat |\n| Asuransi | Terbit | Memenuhi |\n| Tiket | Belum Terbit | Penghambat |\n\n<!-- atlas-docling-grid-v1:[[{\"row\":0,\"column\":0,\"text\":\"Komponen\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":1,\"text\":\"Kondisi\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false},{\"row\":0,\"column\":2,\"text\":\"Evaluasi\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":true,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":1,\"column\":0,\"text\":\"Pembayaran\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":1,\"text\":\"Lunas\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":1,\"column\":2,\"text\":\"Memenuhi\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":2,\"column\":0,\"text\":\"Dokumen wajib\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":1,\"text\":\"Seluruhnya Valid\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":2,\"column\":2,\"text\":\"Memenuhi\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":3,\"column\":0,\"text\":\"Paspor\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":1,\"text\":\"Memenuhi ketentuan\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":3,\"column\":2,\"text\":\"Memenuhi\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":4,\"column\":0,\"text\":\"Visa\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":4,\"column\":1,\"text\":\"Belum Disetujui\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":4,\"column\":2,\"text\":\"Penghambat\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":5,\"column\":0,\"text\":\"Asuransi\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":5,\"column\":1,\"text\":\"Terbit\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":5,\"column\":2,\"text\":\"Memenuhi\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}],[{\"row\":6,\"column\":0,\"text\":\"Tiket\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":6,\"column\":1,\"text\":\"Belum Terbit\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false},{\"row\":6,\"column\":2,\"text\":\"Penghambat\",\"rowSpan\":1,\"columnSpan\":1,\"columnHeader\":false,\"rowHeader\":false,\"rowSection\":false}]] -->",
+            "boundingBox": {
+              "x": 49.684,
+              "y": 179.138,
+              "width": 495.038,
+              "height": 236.158
+            }
+          }
+        ],
+        "textBlocks": [
+          {
+            "id": "docling-text-p9-157",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p9-158",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p9-159",
+            "kind": "text",
+            "text": "Apabila salah satu syarat belum terpenuhi, status jemaah menjadi Terhambat. Aplikasi harus menampilkan seluruh alasan penghambat, bukan hanya satu alasan.",
+            "boundingBox": {
+              "x": 51,
+              "y": 65.746,
+              "width": 482.496,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p9-160",
+            "kind": "text",
+            "text": "Setiap perubahan pembayaran, dokumen, paspor, visa, asuransi, atau tiket harus langsung memengaruhi status kesiapan yang ditampilkan.",
+            "boundingBox": {
+              "x": 51,
+              "y": 104.346,
+              "width": 477.725,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p9-161",
+            "kind": "caption",
+            "text": "Tabel 3. Komponen penilaian kesiapan jemaah",
+            "boundingBox": {
+              "x": 51,
+              "y": 160.888,
+              "width": 218.136,
+              "height": 8.551
+            }
+          },
+          {
+            "id": "docling-text-p9-162",
+            "kind": "text",
+            "text": "Sumber: Contoh pemeriksaan berdasarkan Safara - Sistem Administrasi Travel Umrah (2026), bagian \"6. Status Perjalanan dan Kesiapan\".",
+            "boundingBox": {
+              "x": 51,
+              "y": 424.288,
+              "width": 472.872,
+              "height": 18.978
+            }
+          },
+          {
+            "id": "docling-text-p9-163",
+            "kind": "text",
+            "text": "Catatan: Status Terhambat harus menyajikan seluruh alasan yang belum terpenuhi.",
+            "boundingBox": {
+              "x": 51,
+              "y": 450.688,
+              "width": 314.232,
+              "height": 7.278
+            }
+          },
+          {
+            "id": "docling-text-p9-164",
+            "kind": "section_header",
+            "text": "7. Manifest Keberangkatan",
+            "boundingBox": {
+              "x": 51,
+              "y": 493.446,
+              "width": 158.43,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p9-165",
+            "kind": "list_item",
+            "text": "Operations dapat melihat daftar calon jemaah untuk setiap keberangkatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 516.846,
+              "width": 346.435,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p9-166",
+            "kind": "list_item",
+            "text": "Hanya jemaah berstatus Siap yang dapat dimasukkan ke manifest final.",
+            "boundingBox": {
+              "x": 58,
+              "y": 535.746,
+              "width": 327.869,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p9-167",
+            "kind": "list_item",
+            "text": "Operations dapat melihat preview manifest sebelum difinalisasi.",
+            "boundingBox": {
+              "x": 58,
+              "y": 554.646,
+              "width": 295.632,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p9-168",
+            "kind": "list_item",
+            "text": "Setelah difinalisasi, isi manifest tidak berubah otomatis walaupun data jemaah kemudian diperbarui.",
+            "boundingBox": {
+              "x": 58,
+              "y": 573.546,
+              "width": 460.128,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p9-169",
+            "kind": "list_item",
+            "text": "Aplikasi mencatat siapa yang memfinalisasi manifest dan kapan dilakukan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 592.446,
+              "width": 342.461,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p9-170",
+            "kind": "list_item",
+            "text": "Manifest dapat diunduh dalam format PDF dan Excel.",
+            "boundingBox": {
+              "x": 58,
+              "y": 611.346,
+              "width": 246.461,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p9-171",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p9-172",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 9",
+            "boundingBox": {
+              "x": 483.156,
+              "y": 802.463,
+              "width": 61.119,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": []
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 10,
+        "tables": [],
+        "textBlocks": [
+          {
+            "id": "docling-text-p10-173",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p10-174",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p10-175",
+            "kind": "caption",
+            "text": "Gambar 5. Keputusan masuk ke manifest final",
+            "boundingBox": {
+              "x": 51,
+              "y": 279.133,
+              "width": 217.121,
+              "height": 8.551
+            }
+          },
+          {
+            "id": "docling-text-p10-176",
+            "kind": "text",
+            "text": "Sumber: Diolah dari Safara - Sistem Administrasi Travel Umrah (2026), bagian \"6. Status Perjalanan dan Kesiapan\" dan \"7. Manifest Keberangkatan\".",
+            "boundingBox": {
+              "x": 51,
+              "y": 297.033,
+              "width": 488.08,
+              "height": 18.978
+            }
+          },
+          {
+            "id": "docling-text-p10-177",
+            "kind": "section_header",
+            "text": "8. Dashboard dan Laporan",
+            "boundingBox": {
+              "x": 51,
+              "y": 348.491,
+              "width": 153.364,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p10-178",
+            "kind": "text",
+            "text": "Dashboard minimum menampilkan:",
+            "boundingBox": {
+              "x": 51,
+              "y": 371.89,
+              "width": 163.19,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-179",
+            "kind": "list_item",
+            "text": "Jumlah jemaah aktif.",
+            "boundingBox": {
+              "x": 58,
+              "y": 395.19,
+              "width": 98.323,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-180",
+            "kind": "list_item",
+            "text": "Keberangkatan terdekat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 414.09,
+              "width": 118.474,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-181",
+            "kind": "list_item",
+            "text": "Jumlah kuota terpakai dan tersisa.",
+            "boundingBox": {
+              "x": 58,
+              "y": 432.99,
+              "width": 159.955,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-182",
+            "kind": "list_item",
+            "text": "Total pembayaran yang sudah diterima.",
+            "boundingBox": {
+              "x": 58,
+              "y": 451.89,
+              "width": 186.221,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-183",
+            "kind": "list_item",
+            "text": "Total sisa pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 470.79,
+              "width": 110.352,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-184",
+            "kind": "list_item",
+            "text": "Jumlah jemaah Siap dan Terhambat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 489.69,
+              "width": 169.584,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-185",
+            "kind": "list_item",
+            "text": "Jumlah dokumen yang belum ada, ditolak, atau kedaluwarsa.",
+            "boundingBox": {
+              "x": 58,
+              "y": 508.59,
+              "width": 281.146,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-186",
+            "kind": "section_header",
+            "text": "Laporan minimum:",
+            "boundingBox": {
+              "x": 51,
+              "y": 527.49,
+              "width": 86.227,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-187",
+            "kind": "list_item",
+            "text": "Daftar jemaah per keberangkatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 550.79,
+              "width": 161.875,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-188",
+            "kind": "list_item",
+            "text": "Pembayaran dan sisa pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 569.69,
+              "width": 164.65,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-189",
+            "kind": "list_item",
+            "text": "Kelengkapan dokumen.",
+            "boundingBox": {
+              "x": 58,
+              "y": 588.59,
+              "width": 113.088,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-190",
+            "kind": "list_item",
+            "text": "Kesiapan keberangkatan beserta alasan penghambat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 607.49,
+              "width": 249.562,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-191",
+            "kind": "list_item",
+            "text": "Manifest final.",
+            "boundingBox": {
+              "x": 58,
+              "y": 626.39,
+              "width": 70.032,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p10-192",
+            "kind": "text",
+            "text": "Laporan dapat disaring berdasarkan periode, paket, keberangkatan, status pembayaran, dan status kesiapan. Laporan dapat diunduh dalam format Excel, sedangkan manifest tersedia dalam PDF dan Excel.",
+            "boundingBox": {
+              "x": 51,
+              "y": 645.29,
+              "width": 475.632,
+              "height": 24.033
+            }
+          },
+          {
+            "id": "docling-text-p10-193",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p10-194",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 10",
+            "boundingBox": {
+              "x": 478.809,
+              "y": 802.463,
+              "width": 65.466,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": [
+          {
+            "id": "docling-visual-p10-5",
+            "assetRef": "derived/b198c4f9-e155-4c8b-b7e2-43315bbc408f",
+            "boundingBox": {
+              "x": 75.706,
+              "y": 87.942,
+              "width": 443.723,
+              "height": 155.54
+            }
+          }
+        ]
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 11,
+        "tables": [],
+        "textBlocks": [
+          {
+            "id": "docling-text-p11-195",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p11-196",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p11-197",
+            "kind": "section_header",
+            "text": "9. Riwayat Aktivitas",
+            "boundingBox": {
+              "x": 51,
+              "y": 66.346,
+              "width": 115.444,
+              "height": 10.643
+            }
+          },
+          {
+            "id": "docling-text-p11-198",
+            "kind": "list_item",
+            "text": "Aplikasi menyimpan riwayat tindakan penting yang dilakukan pengguna.",
+            "boundingBox": {
+              "x": 58,
+              "y": 89.746,
+              "width": 334.56,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-199",
+            "kind": "list_item",
+            "text": "Riwayat minimum mencakup perubahan data jemaah, pendaftaran, pemeriksaan pembayaran, pemeriksaan dokumen, perubahan status perjalanan, dan finalisasi manifest.",
+            "boundingBox": {
+              "x": 58,
+              "y": 108.646,
+              "width": 435.12,
+              "height": 23.633
+            }
+          },
+          {
+            "id": "docling-text-p11-200",
+            "kind": "list_item",
+            "text": "Riwayat menampilkan pengguna yang melakukan tindakan, waktu, data yang diubah, dan ringkasan perubahan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 142.446,
+              "width": 459.37,
+              "height": 23.633
+            }
+          },
+          {
+            "id": "docling-text-p11-201",
+            "kind": "list_item",
+            "text": "Data transaksi dan riwayat yang sudah pernah digunakan tidak boleh hilang hanya karena data dinonaktifkan atau dibatalkan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 176.246,
+              "width": 436.349,
+              "height": 23.633
+            }
+          },
+          {
+            "id": "docling-text-p11-202",
+            "kind": "section_header",
+            "text": "Aturan Bisnis Utama",
+            "boundingBox": {
+              "x": 51,
+              "y": 228.733,
+              "width": 162.579,
+              "height": 14.1
+            }
+          },
+          {
+            "id": "docling-text-p11-203",
+            "kind": "list_item",
+            "text": "Satu jemaah dapat memiliki beberapa riwayat pendaftaran, tetapi tidak boleh memiliki dua pendaftaran aktif pada keberangkatan yang sama.",
+            "boundingBox": {
+              "x": 58,
+              "y": 256.046,
+              "width": 474.682,
+              "height": 23.633
+            }
+          },
+          {
+            "id": "docling-text-p11-204",
+            "kind": "list_item",
+            "text": "Jumlah pendaftaran aktif tidak boleh melebihi kuota keberangkatan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 289.846,
+              "width": 314.237,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-205",
+            "kind": "list_item",
+            "text": "Harga pendaftaran yang sudah disepakati tidak berubah ketika harga paket diperbarui.",
+            "boundingBox": {
+              "x": 58,
+              "y": 308.746,
+              "width": 400.368,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-206",
+            "kind": "list_item",
+            "text": "Pembayaran Menunggu Pemeriksaan atau Ditolak tidak mengurangi sisa pembayaran.",
+            "boundingBox": {
+              "x": 58,
+              "y": 327.646,
+              "width": 398.15,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-207",
+            "kind": "list_item",
+            "text": "Pembayaran atau dokumen yang ditolak wajib memiliki alasan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 346.546,
+              "width": 290.582,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-208",
+            "kind": "list_item",
+            "text": "Dokumen wajib yang Belum Ada, Ditolak, atau Kedaluwarsa menyebabkan jemaah berstatus Terhambat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 365.446,
+              "width": 478.042,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-209",
+            "kind": "list_item",
+            "text": "Jemaah Terhambat tidak boleh masuk ke manifest final.",
+            "boundingBox": {
+              "x": 58,
+              "y": 384.346,
+              "width": 257.213,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-210",
+            "kind": "list_item",
+            "text": "Semua alasan yang menghambat kesiapan harus ditampilkan bersamaan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 403.246,
+              "width": 340.186,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-211",
+            "kind": "list_item",
+            "text": "Pembatalan atau penonaktifan data tidak boleh menghilangkan riwayat sebelumnya.",
+            "boundingBox": {
+              "x": 58,
+              "y": 422.146,
+              "width": 389.885,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-212",
+            "kind": "list_item",
+            "text": "Informasi jemaah dan dokumen hanya boleh dilihat oleh pengguna yang berkepentingan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 441.046,
+              "width": 412.646,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-213",
+            "kind": "section_header",
+            "text": "Skenario Pemeriksaan Hasil",
+            "boundingBox": {
+              "x": 51,
+              "y": 478.633,
+              "width": 221.759,
+              "height": 14.1
+            }
+          },
+          {
+            "id": "docling-text-p11-214",
+            "kind": "text",
+            "text": "Sebelum pekerjaan dinyatakan selesai, kami akan mencoba minimal skenario berikut:",
+            "boundingBox": {
+              "x": 51,
+              "y": 505.946,
+              "width": 385.776,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-215",
+            "kind": "list_item",
+            "text": "Membuat paket dan jadwal keberangkatan, lalu melihat sisa kuota.",
+            "boundingBox": {
+              "x": 58,
+              "y": 529.246,
+              "width": 312.672,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-216",
+            "kind": "list_item",
+            "text": "Mendaftarkan jemaah sampai kuota penuh dan memastikan pendaftaran berikutnya ditolak.",
+            "boundingBox": {
+              "x": 58,
+              "y": 548.146,
+              "width": 428.717,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-217",
+            "kind": "list_item",
+            "text": "Mencoba mendaftarkan jemaah yang sama dua kali pada keberangkatan yang sama.",
+            "boundingBox": {
+              "x": 58,
+              "y": 567.046,
+              "width": 394.138,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-218",
+            "kind": "list_item",
+            "text": "Mencatat pembayaran Menunggu Pemeriksaan dan memastikan sisa pembayaran belum berubah.",
+            "boundingBox": {
+              "x": 58,
+              "y": 585.946,
+              "width": 457.565,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-219",
+            "kind": "list_item",
+            "text": "Menerima pembayaran dan memastikan sisa pembayaran berkurang dengan benar.",
+            "boundingBox": {
+              "x": 58,
+              "y": 604.846,
+              "width": 392.294,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-220",
+            "kind": "list_item",
+            "text": "Menolak pembayaran atau dokumen dan memastikan alasan wajib dicatat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 623.746,
+              "width": 348.97,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-221",
+            "kind": "list_item",
+            "text": "Membuat satu dokumen wajib tidak valid dan memastikan jemaah berstatus Terhambat.",
+            "boundingBox": {
+              "x": 58,
+              "y": 642.646,
+              "width": 410.65,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-222",
+            "kind": "list_item",
+            "text": "Mencoba memasukkan jemaah Terhambat ke manifest final dan memastikan tindakan ditolak.",
+            "boundingBox": {
+              "x": 58,
+              "y": 661.546,
+              "width": 436.925,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-223",
+            "kind": "list_item",
+            "text": "Memfinalisasi manifest dan memastikan hasilnya dapat diunduh.",
+            "boundingBox": {
+              "x": 58,
+              "y": 680.446,
+              "width": 303.974,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-224",
+            "kind": "list_item",
+            "text": "Masuk sebagai Finance atau Operations dan memastikan masing-masing hanya dapat menjalankan tugasnya.",
+            "boundingBox": {
+              "x": 58,
+              "y": 699.346,
+              "width": 465.782,
+              "height": 23.633
+            }
+          },
+          {
+            "id": "docling-text-p11-225",
+            "kind": "list_item",
+            "text": "Membandingkan angka pada dashboard dan laporan dengan data yang sudah dimasukkan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 733.146,
+              "width": 431.078,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-226",
+            "kind": "list_item",
+            "text": "Memastikan riwayat aktivitas menunjukkan siapa yang melakukan perubahan penting.",
+            "boundingBox": {
+              "x": 58,
+              "y": 752.046,
+              "width": 407.021,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p11-227",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p11-228",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 11",
+            "boundingBox": {
+              "x": 478.809,
+              "y": 802.463,
+              "width": 65.466,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": []
+      },
+      {
+        "width": 595.2756,
+        "height": 841.8898,
+        "number": 12,
+        "tables": [],
+        "textBlocks": [
+          {
+            "id": "docling-text-p12-229",
+            "kind": "page_header",
+            "text": "SAFARA",
+            "boundingBox": {
+              "x": 51,
+              "y": 28.431,
+              "width": 29.874,
+              "height": 7.096
+            }
+          },
+          {
+            "id": "docling-text-p12-230",
+            "kind": "page_header",
+            "text": "BUSINESS PRD / PROJECT REQUEST",
+            "boundingBox": {
+              "x": 419.423,
+              "y": 28.574,
+              "width": 124.853,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p12-231",
+            "kind": "section_header",
+            "text": "Hasil yang Harus Diserahkan",
+            "boundingBox": {
+              "x": 51,
+              "y": 67.433,
+              "width": 228.78,
+              "height": 14.1
+            }
+          },
+          {
+            "id": "docling-text-p12-232",
+            "kind": "list_item",
+            "text": "Aplikasi web yang siap digunakan untuk operasional satu perusahaan dan satu cabang.",
+            "boundingBox": {
+              "x": 58,
+              "y": 94.746,
+              "width": 400.531,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-233",
+            "kind": "list_item",
+            "text": "Seluruh alur dari paket, pendaftaran, pembayaran, dokumen, kesiapan, sampai manifest dapat digunakan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 113.646,
+              "width": 486.276,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-234",
+            "kind": "list_item",
+            "text": "Alamat aplikasi yang dapat diakses oleh pengguna yang ditentukan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 132.546,
+              "width": 313.066,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-235",
+            "kind": "list_item",
+            "text": "Akun awal untuk Owner/Admin, Finance, dan Operations.",
+            "boundingBox": {
+              "x": 58,
+              "y": 151.446,
+              "width": 264.864,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-236",
+            "kind": "list_item",
+            "text": "Panduan penggunaan singkat untuk setiap jenis pengguna.",
+            "boundingBox": {
+              "x": 58,
+              "y": 170.346,
+              "width": 275.299,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-237",
+            "kind": "list_item",
+            "text": "Pelatihan atau sesi serah terima kepada perwakilan perusahaan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 189.246,
+              "width": 297.235,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-238",
+            "kind": "list_item",
+            "text": "Kemampuan mengunduh laporan dan manifest sesuai kebutuhan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 208.146,
+              "width": 306.432,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-239",
+            "kind": "list_item",
+            "text": "Penyerahan seluruh akses dan berkas proyek yang menjadi hak perusahaan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 227.046,
+              "width": 352.282,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-240",
+            "kind": "list_item",
+            "text": "Garansi perbaikan kesalahan selama 14 hari setelah hasil pemeriksaan disetujui.",
+            "boundingBox": {
+              "x": 58,
+              "y": 245.946,
+              "width": 368.803,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-241",
+            "kind": "section_header",
+            "text": "Kriteria Penerimaan",
+            "boundingBox": {
+              "x": 51,
+              "y": 283.533,
+              "width": 162.626,
+              "height": 14.1
+            }
+          },
+          {
+            "id": "docling-text-p12-242",
+            "kind": "text",
+            "text": "Pekerjaan dianggap selesai apabila:",
+            "boundingBox": {
+              "x": 51,
+              "y": 310.846,
+              "width": 161.05,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-243",
+            "kind": "list_item",
+            "text": "Ketiga jenis pengguna dapat masuk dan menjalankan tugas sesuai kewenangannya.",
+            "boundingBox": {
+              "x": 58,
+              "y": 334.146,
+              "width": 386.534,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-244",
+            "kind": "list_item",
+            "text": "Alur dari pembuatan paket sampai manifest dapat dijalankan menggunakan contoh data yang disepakati.",
+            "boundingBox": {
+              "x": 58,
+              "y": 353.046,
+              "width": 483.053,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-245",
+            "kind": "list_item",
+            "text": "Kuota, tagihan, pembayaran, dan sisa pembayaran dihitung dengan benar.",
+            "boundingBox": {
+              "x": 58,
+              "y": 371.946,
+              "width": 345.062,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-246",
+            "kind": "list_item",
+            "text": "Status Siap atau Terhambat sesuai dengan kondisi pembayaran dan persyaratan perjalanan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 390.846,
+              "width": 422.861,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-247",
+            "kind": "list_item",
+            "text": "Semua alasan penghambat dapat dilihat dengan jelas.",
+            "boundingBox": {
+              "x": 58,
+              "y": 409.746,
+              "width": 250.992,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-248",
+            "kind": "list_item",
+            "text": "Jemaah Terhambat tidak dapat dimasukkan ke manifest final.",
+            "boundingBox": {
+              "x": 58,
+              "y": 428.646,
+              "width": 282.547,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-249",
+            "kind": "list_item",
+            "text": "Laporan dan manifest dapat diunduh serta sesuai dengan data yang ditampilkan.",
+            "boundingBox": {
+              "x": 58,
+              "y": 447.546,
+              "width": 373.363,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-250",
+            "kind": "list_item",
+            "text": "Dokumen jemaah tidak dapat dilihat oleh pengguna yang tidak berwenang.",
+            "boundingBox": {
+              "x": 58,
+              "y": 466.446,
+              "width": 347.251,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-251",
+            "kind": "list_item",
+            "text": "Riwayat tindakan penting dapat dilihat kembali.",
+            "boundingBox": {
+              "x": 58,
+              "y": 485.346,
+              "width": 220.848,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-252",
+            "kind": "list_item",
+            "text": "Panduan penggunaan, akun awal, pelatihan, dan serah terima sudah diterima.",
+            "boundingBox": {
+              "x": 58,
+              "y": 504.246,
+              "width": 360.336,
+              "height": 8.733
+            }
+          },
+          {
+            "id": "docling-text-p12-253",
+            "kind": "page_footer",
+            "text": "Safara - Sistem Administrasi Travel Umrah",
+            "boundingBox": {
+              "x": 51,
+              "y": 802.463,
+              "width": 150.092,
+              "height": 6.914
+            }
+          },
+          {
+            "id": "docling-text-p12-254",
+            "kind": "page_footer",
+            "text": "27 Juli 2026 | 12",
+            "boundingBox": {
+              "x": 478.809,
+              "y": 802.463,
+              "width": 65.466,
+              "height": 6.914
+            }
+          }
+        ],
+        "visualRegions": []
+      }
+    ],
+    "version": "v1",
+    "provider": {
+      "name": "docling",
+      "processor": "docling-slim-2.132.0/docling-serve-1.36.0/atlas-digital-pdf-run-003-capture-v1",
+      "executionId": "39cc9cad-9d74-4cfa-8eb6-9c435d03022e",
+      "processedAt": "2026-10-12T19:52:12.377Z"
+    },
+    "artifactId": "5b178308-31e1-497d-b859-14a08b2fcf55",
+    "perception": {
+      "capability": "atlas.document.perceive",
+      "contractVersion": "v1"
+    },
+    "executionId": "39cc9cad-9d74-4cfa-8eb6-9c435d03022e",
+    "sourceSha256": "2f537e8bb7ea4f69fb906af03d0265e2a986a0f15c2dbedbbace5328cd40e7df"
+  }
+}

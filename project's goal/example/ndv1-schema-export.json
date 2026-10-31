@@ -1,0 +1,301 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Atlas NDV1 schema export",
+  "description": "Schemas used by Atlas NormalizedDocument v1 and its current GHR semantic batch-plan handoff.",
+  "sourceFiles": [
+    "packages/atlas-contracts/src/perception.ts",
+    "packages/atlas-db/src/semantic-batch-plan-input.ts"
+  ],
+  "schemas": {
+    "NormalizedDocument/v1": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$id": "atlas://contracts/normalized-document/v1",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "version",
+        "executionId",
+        "artifactId",
+        "sourceSha256",
+        "perception",
+        "provider",
+        "pages"
+      ],
+      "properties": {
+        "version": {
+          "const": "v1"
+        },
+        "executionId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "artifactId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "sourceSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "perception": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["capability", "contractVersion"],
+          "properties": {
+            "capability": {
+              "const": "atlas.document.perceive"
+            },
+            "contractVersion": {
+              "const": "v1"
+            }
+          }
+        },
+        "provider": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["name", "processor", "executionId", "processedAt"],
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            },
+            "processor": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "executionId": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 200
+            },
+            "processedAt": {
+              "type": "string",
+              "minLength": 20,
+              "maxLength": 40,
+              "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}T"
+            }
+          }
+        },
+        "pages": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10000,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["number", "textBlocks", "tables", "visualRegions"],
+            "properties": {
+              "number": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "width": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "height": {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              "textBlocks": {
+                "type": "array",
+                "maxItems": 100000,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["id", "text"],
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 200
+                    },
+                    "text": {
+                      "type": "string",
+                      "maxLength": 1000000
+                    },
+                    "kind": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 100
+                    },
+                    "boundingBox": {
+                      "$ref": "#/$defs/boundingBox"
+                    },
+                    "confidence": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    }
+                  }
+                }
+              },
+              "tables": {
+                "type": "array",
+                "maxItems": 10000,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["id", "content"],
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 200
+                    },
+                    "content": {
+                      "type": "string",
+                      "maxLength": 1000000
+                    },
+                    "boundingBox": {
+                      "$ref": "#/$defs/boundingBox"
+                    }
+                  }
+                }
+              },
+              "visualRegions": {
+                "type": "array",
+                "maxItems": 100000,
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["id"],
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 200
+                    },
+                    "label": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 1000
+                    },
+                    "boundingBox": {
+                      "$ref": "#/$defs/boundingBox"
+                    },
+                    "assetRef": {
+                      "type": "string",
+                      "minLength": 1,
+                      "maxLength": 500,
+                      "pattern": "^derived/"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "$defs": {
+        "boundingBox": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["x", "y", "width", "height"],
+          "properties": {
+            "x": {
+              "type": "number",
+              "minimum": 0
+            },
+            "y": {
+              "type": "number",
+              "minimum": 0
+            },
+            "width": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            },
+            "height": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          }
+        }
+      }
+    },
+    "SemanticBatchPlanInput/v1": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "$id": "atlas://contracts/semantic-batch-plan-input/v1",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "normalizedDocumentRef",
+        "perceptionExecutionId",
+        "sourceSha256",
+        "normalizedDocumentVersion",
+        "normalizedDocumentFingerprint"
+      ],
+      "properties": {
+        "normalizedDocumentRef": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "perceptionExecutionId": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 200
+        },
+        "sourceSha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "normalizedDocumentVersion": {
+          "const": "v1"
+        },
+        "normalizedDocumentFingerprint": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "canonicalSerialization": "JSON.stringify({normalizedDocumentRef,perceptionExecutionId,sourceSha256,normalizedDocumentVersion,normalizedDocumentFingerprint})",
+      "maxBodyBytes": 2048
+    }
+  },
+  "currentHandoffWrapper": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": ["can_continue", "payload"],
+    "properties": {
+      "can_continue": {
+        "const": false
+      },
+      "payload": {
+        "$ref": "#/schemas/SemanticBatchPlanInput~1v1"
+      }
+    }
+  },
+  "persistence": {
+    "normalizedDocumentCache": {
+      "table": "atlas.normalized_document_cache",
+      "columns": {
+        "cache_key": "text primary key",
+        "source_sha256": "text, lowercase 64-hex",
+        "contract_version": "text, v1",
+        "capability": "text, atlas.document.perceive",
+        "capability_identity": "text, default atlas.document.perceive:v1",
+        "normalized_document": "jsonb, NormalizedDocument/v1",
+        "derived_assets": "jsonb, array of derived asset references, default []",
+        "created_at": "timestamptz",
+        "invalidated_at": "timestamptz nullable"
+      }
+    },
+    "perceptionExecution": {
+      "table": "atlas.document_perception_execution",
+      "acceptedState": "completed"
+    },
+    "bundleMember": {
+      "table": "atlas.extraction_bundle_document",
+      "acceptedState": "perceived"
+    }
+  },
+  "notes": [
+    "NDV1 itself is the NormalizedDocument/v1 object persisted in normalized_document_cache.normalized_document.",
+    "The current GHR handoff does not transmit the full NDV1 document; it transmits only five integrity-bound references in SemanticBatchPlanInput/v1.",
+    "The current route is semantic/batch-plan, policy v1, handler v1, and can_continue=false.",
+    "REL is unavailable for NormalizedDocument v1; no REL graph is part of this schema."
+  ]
+}
