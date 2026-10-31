@@ -23,6 +23,12 @@ PDF mentah bukan input langsung Inference Engine. PDF diproses oleh perception
 layer dan menghasilkan `NormalizedDocument/v1` beserta asset PNG yang
 direferensikan melalui `visualRegions.assetRef`.
 
+Inference Engine dipakai oleh background service dan hanya dapat dipanggil
+oleh service yang memiliki identity terdaftar serta permission yang sesuai.
+API contract bersifat identity-aware: identity pemanggil tidak dipercaya dari
+payload request, tetapi dihasilkan dari proses autentikasi dan digunakan oleh
+authorization policy serta audit.
+
 Setiap hasil inference juga harus dapat ditelusuri kembali ke text, table, atau
 image yang digunakan sebagai dasar hasil tersebut.
 
@@ -132,6 +138,43 @@ pada evidence repository dan menjadi bagian dari project ini.
 `REL` belum tersedia sebagai graph pada `NormalizedDocument/v1`. Relation
 merupakan output baru dari Inference Engine.
 
+## Identity-aware access contract
+
+Runtime Inference Engine menyediakan API HTTP berbasis Fastify untuk background
+service. Target production menggunakan HTTPS dengan mTLS. Authentication dan
+authorization merupakan tahap terpisah:
+
+- authentication menentukan identity service yang memanggil;
+- authorization menentukan apakah identity tersebut boleh menjalankan
+  inference;
+- audit mencatat identity, keputusan akses, dan keterkaitan request atau job.
+
+Pada development, setiap background service menggunakan credential terpisah.
+Credential menghasilkan principal dan scope yang sama dengan yang akan
+digunakan pada production, tetapi mekanisme autentikasinya bersifat
+development-only dan dapat diganti tanpa mengubah API contract atau policy.
+
+Target production adalah mutual TLS (mTLS) antarservice. Certificate identity
+dipetakan ke principal service, kemudian authorization policy tetap ditegakkan
+di Fastify sebelum inference dijalankan.
+
+Identity context minimal mencakup:
+
+- `principal` atau service identity;
+- scope atau permission;
+- authentication method;
+- `requestId` dan, bila asynchronous, `jobId`;
+- initiating principal dan executing principal bila keduanya berbeda.
+
+Identity context harus berasal dari credential atau certificate yang telah
+diverifikasi. Client tidak boleh menetapkan principal melalui payload request.
+
+Setiap request yang gagal authentication atau authorization harus ditolak
+sebelum inference dijalankan. Audit log wajib mencatat request berhasil,
+request ditolak, principal, authentication method, keputusan authorization,
+request atau job ID, waktu, dan policy yang digunakan. Credential, private key,
+dan isi dokumen sensitif tidak boleh dicatat ke audit log.
+
 ## Current and target state
 
 ### Current state
@@ -146,6 +189,8 @@ merupakan output baru dari Inference Engine.
   atau table.
 - Belum ada kontrak source reference yang menghubungkan setiap output dengan
   sumber input yang digunakan.
+- Belum ada implementasi identity-aware access contract untuk background
+  service.
 
 ### Target state
 
@@ -160,6 +205,12 @@ merupakan output baru dari Inference Engine.
   dan area image bila tersedia.
 - Hasil menyatakan confidence dan ambiguity bila diperlukan.
 - Hasil reproducible pada berbagai `NormalizedDocument/v1` dari PDF berbeda.
+- Background service dapat memanggil engine melalui API contract yang
+  identity-aware.
+- Development menggunakan credential terpisah per service.
+- Production menggunakan mTLS sebagai target autentikasi antarservice.
+- Authorization policy ditegakkan di Fastify sebelum inference dijalankan.
+- Setiap request atau job dapat ditelusuri melalui audit log wajib.
 
 ## People and governance
 
@@ -190,6 +241,15 @@ Role spesifik penerima delegasi belum ditentukan dan bersifat `to-confirm`.
 - Kualitas hasil perception dapat memengaruhi hasil image extraction dan
   validitas evidence.
 - Threshold numerik belum ditentukan.
+- Credential development harus dikelola sebagai secret dan tidak boleh menjadi
+  credential global untuk semua service.
+- Mekanisme authentication development dan production harus menghasilkan
+  identity context, principal, dan permission semantics yang kompatibel.
+- Perubahan dari credential development ke mTLS tidak boleh mengubah
+  authorization policy atau API contract inti.
+- Fastify harus menolak request tanpa identity valid atau permission yang
+  sesuai sebelum inference dijalankan.
+- Audit identity dan keputusan authorization merupakan invariant project.
 
 ## Success and acceptance basis
 
@@ -205,6 +265,13 @@ Project dianggap berhasil apabila:
 - evidence yang disertakan valid dan dapat ditelusuri;
 - confidence dan ambiguity tersedia saat dibutuhkan;
 - hasil reproducible untuk berbagai `NormalizedDocument/v1` dari PDF berbeda.
+- background service yang tidak terautentikasi atau tidak terotorisasi tidak
+  dapat menjalankan inference;
+- identity pemrakarsa dan pelaksana dapat ditelusuri untuk request atau job;
+- perpindahan dari credential development ke mTLS production tidak mengubah
+  API contract dan authorization semantics inti;
+- audit log authentication, authorization, dan execution tersedia untuk
+  review.
 
 Expected output dapat berasal dari:
 
@@ -231,6 +298,14 @@ Tidak semua metode evaluasi wajib digunakan sekaligus.
 - Owner adalah user dan dapat mendelegasikan authority.
 - Kriteria sukses mencakup akurasi, kelengkapan relasi, evidence valid,
   traceability, dan reproducibility.
+- Runtime deployment menggunakan Docker Compose dan API HTTP berbasis Fastify;
+  production menggunakan HTTPS dengan mTLS.
+- API contract bersifat identity-aware dan tidak mempercayai identity dari
+  payload request.
+- Development menggunakan credential terpisah per background service.
+- mTLS adalah target production untuk authentication antarservice.
+- Authorization policy ditegakkan di Fastify sebelum inference dijalankan.
+- Audit log authentication, authorization, dan execution bersifat wajib.
 
 ## Deferred decisions
 
@@ -244,6 +319,11 @@ Tidak semua metode evaluasi wajib digunakan sekaligus.
 - Dataset evaluasi final.
 - Role approver atau decision owner yang didelegasikan.
 - Kebijakan versioning dan compatibility output.
+- Detail format credential development dan mekanisme penyimpanannya.
+- Private CA, certificate issuance, renewal, dan rotation policy untuk mTLS.
+- Detail mapping certificate identity ke principal service.
+- Granularity final untuk scope, role, tenant, dan policy authorization.
+- Format audit log, retention, dan sistem penyimpanannya.
 
 ## Risks and dependencies
 
@@ -255,6 +335,12 @@ Tidak semua metode evaluasi wajib digunakan sekaligus.
   generalisasi.
 - Perubahan versi schema dapat memengaruhi kompatibilitas.
 - Evidence perception yang tidak lengkap dapat membatasi validasi hasil.
+- Credential per-service yang bocor dapat memungkinkan pemanggilan inference
+  tanpa izin sampai credential dicabut atau diganti.
+- Certificate expiry atau kegagalan rotation dapat menghentikan komunikasi
+  production antarservice.
+- Perbedaan identity mapping antara development credential dan mTLS dapat
+  menyebabkan policy tidak konsisten saat deployment.
 
 ## Evidence and claim states
 
@@ -270,6 +356,11 @@ Tidak semua metode evaluasi wajib digunakan sekaligus.
 - User adalah owner dan dapat mendelegasikan authority.
 - Kriteria sukses mencakup akurasi, kelengkapan relasi, evidence valid,
   traceability, dan reproducibility.
+- Deployment runtime menggunakan Docker Compose dan komunikasi HTTP Fastify.
+- Background service memakai per-service credential pada development.
+- Target production menggunakan mTLS.
+- Fastify menegakkan authorization policy.
+- Audit log authentication dan authorization wajib.
 
 ### Observed or documented
 
@@ -302,3 +393,6 @@ Evidence:
 - Detail schema output interpretation dan relation.
 - Detail format cross-modal relation.
 - Detail nama field dan granularity source reference.
+- Detail format API contract identity-aware.
+- Detail credential development, private CA, certificate lifecycle, dan
+  authorization policy final.
