@@ -1,0 +1,333 @@
+{
+  "schema": "inference-evaluation-draft/v1",
+  "caseId": "safara-professional-example-001",
+  "entities": [
+    { "id": "document:safara-prd", "type": "document", "label": "SAFARA Business PRD / Project Request" },
+    { "id": "schedule:SF-081", "type": "departure_schedule", "label": "SF-081" },
+    { "id": "schedule:SF-082", "type": "departure_schedule", "label": "SF-082" },
+    { "id": "schedule:SF-083", "type": "departure_schedule", "label": "SF-083" },
+    { "id": "payment:summary-001", "type": "payment_summary", "label": "Contoh ringkasan pembayaran" },
+    { "id": "pilgrim:REG-2026-014", "type": "pilgrim_registration", "label": "REG-2026-014 / A. Rahman" },
+    { "id": "requirement:visa", "type": "readiness_requirement", "label": "Visa" },
+    { "id": "requirement:ticket", "type": "readiness_requirement", "label": "Tiket" },
+    { "id": "image:workflow-p3", "type": "visual_artifact", "label": "Alur operasional" },
+    { "id": "image:capacity-p5", "type": "visual_artifact", "label": "Perbandingan kuota" },
+    { "id": "image:payment-p7", "type": "visual_artifact", "label": "Perubahan status pembayaran" },
+    { "id": "image:document-review-p8", "type": "visual_artifact", "label": "Pemeriksaan dokumen jemaah" },
+    { "id": "image:readiness-p10", "type": "visual_artifact", "label": "Keputusan masuk manifest" }
+  ],
+  "interpretations": [
+    {
+      "id": "int-001",
+      "subject": "document:safara-prd",
+      "type": "document.title",
+      "value": "Sistem Administrasi Travel Umrah",
+      "normalizedValue": "Sistem Administrasi Travel Umrah",
+      "sourceReferences": [
+        { "kind": "textBlock", "id": "docling-text-p1-5", "page": 1 }
+      ],
+      "evidence": [
+        { "kind": "text", "page": 1, "text": "Sistem Administrasi Travel Umrah" }
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "int-002",
+      "subject": "document:safara-prd",
+      "type": "document.purpose",
+      "value": "Aplikasi operasional harian untuk administrasi jemaah umrah",
+      "normalizedValue": "aplikasi_operasional_administrasi_jemaah_umrah",
+      "sourceReferences": [
+        { "kind": "table", "id": "docling-table-p1-1", "page": 1 }
+      ],
+      "evidence": [
+        { "kind": "tableCellText", "page": 1, "text": "TUJUAN | Aplikasi operasional harian untuk administrasi jemaah umrah" }
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "int-003",
+      "subject": "image:workflow-p3",
+      "type": "workflow.operational_steps",
+      "value": [
+        { "order": 1, "actor": "Admin", "action": "Paket dan jadwal" },
+        { "order": 2, "actor": "Admin", "action": "Registrasi jemaah" },
+        { "order": 3, "actor": "Sistem", "action": "Tagihan terbit" },
+        { "order": 4, "actor": "Finance", "action": "Verifikasi pembayaran" },
+        { "order": 5, "actor": "Admin / Operations", "action": "Pemeriksaan dokumen" },
+        { "order": 6, "actor": "Operations", "action": "Status perjalanan" },
+        { "order": 7, "actor": "Sistem", "action": "Status kesiapan" },
+        { "order": 8, "actor": "Operations", "action": "Manifest final" },
+        { "order": 9, "actor": "Owner / Admin", "action": "Laporan dan riwayat" }
+      ],
+      "sourceReferences": [
+        {
+          "kind": "visualRegion",
+          "id": "docling-visual-p3-1",
+          "page": 3,
+          "assetRef": "derived/4ed9d136-d6e1-431f-97f0-c7167a5a35a3",
+          "boundingBox": { "x": 61.85, "y": 296.07, "width": 471.394, "height": 242.369 }
+        }
+      ],
+      "evidence": [
+        { "kind": "imageRegion", "page": 3, "description": "Diagram sembilan langkah alur operasional dengan panah berurutan dari Admin sampai Owner/Admin." }
+      ],
+      "ambiguity": "Diagram adalah rancangan alur; urutan dan label aktor terbaca, tetapi tidak menyatakan identifier workflow formal."
+    },
+    {
+      "id": "int-004",
+      "subject": "schedule:SF-081",
+      "type": "departure_schedule.quota_snapshot",
+      "value": { "quota": 40, "activeRegistered": 34, "remaining": 6, "status": "Terbuka" },
+      "normalizedValue": { "quota": 40, "activeRegistered": 34, "remaining": 6, "status": "open" },
+      "sourceReferences": [
+        { "kind": "table", "id": "docling-table-p4-2", "page": 4 },
+        { "kind": "visualRegion", "id": "docling-visual-p5-2", "page": 5, "assetRef": "derived/153792cf-7ac4-47e0-90db-f44a75a15a56", "boundingBox": { "x": 81.772, "y": 83.262, "width": 443.487, "height": 215.983 } }
+      ],
+      "evidence": [
+        { "kind": "tableRow", "page": 4, "text": "SF-081 | 40 | 34 | 6 | Terbuka" },
+        { "kind": "imageRegion", "page": 5, "description": "Bar SF-081 menunjukkan kuota 40 dan terdaftar aktif 34." }
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "int-005",
+      "subject": "schedule:SF-082",
+      "type": "departure_schedule.quota_snapshot",
+      "value": { "quota": 32, "activeRegistered": 32, "remaining": 0, "status": "Penuh" },
+      "normalizedValue": { "quota": 32, "activeRegistered": 32, "remaining": 0, "status": "full" },
+      "sourceReferences": [
+        { "kind": "table", "id": "docling-table-p4-2", "page": 4 },
+        { "kind": "visualRegion", "id": "docling-visual-p5-2", "page": 5, "assetRef": "derived/153792cf-7ac4-47e0-90db-f44a75a15a56", "boundingBox": { "x": 81.772, "y": 83.262, "width": 443.487, "height": 215.983 } }
+      ],
+      "evidence": [
+        { "kind": "tableRow", "page": 4, "text": "SF-082 | 32 | 32 | 0 | Penuh" },
+        { "kind": "imageRegion", "page": 5, "description": "Bar SF-082 menunjukkan kuota 32 dan terdaftar aktif 32." }
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "int-006",
+      "subject": "schedule:SF-083",
+      "type": "departure_schedule.quota_snapshot",
+      "value": { "quota": 45, "activeRegistered": 19, "remaining": 26, "status": "Terbuka" },
+      "normalizedValue": { "quota": 45, "activeRegistered": 19, "remaining": 26, "status": "open" },
+      "sourceReferences": [
+        { "kind": "table", "id": "docling-table-p4-2", "page": 4 },
+        { "kind": "visualRegion", "id": "docling-visual-p5-2", "page": 5, "assetRef": "derived/153792cf-7ac4-47e0-90db-f44a75a15a56", "boundingBox": { "x": 81.772, "y": 83.262, "width": 443.487, "height": 215.983 } }
+      ],
+      "evidence": [
+        { "kind": "tableRow", "page": 4, "text": "SF-083 | 45 | 19 | 26 | Terbuka" },
+        { "kind": "imageRegion", "page": 5, "description": "Bar SF-083 menunjukkan kuota 45 dan terdaftar aktif 19." }
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "int-007",
+      "subject": "payment:summary-001",
+      "type": "payment.summary",
+      "value": { "totalBill": 35000000, "acceptedPayment": 18000000, "remainingPayment": 17000000, "currency": "IDR" },
+      "normalizedValue": { "totalBill": 35000000, "acceptedPayment": 18000000, "remainingPayment": 17000000, "currency": "IDR" },
+      "sourceReferences": [
+        { "kind": "table", "id": "docling-table-p6-3", "page": 6 },
+        { "kind": "textBlock", "id": "docling-text-p6-112", "page": 6 }
+      ],
+      "evidence": [
+        { "kind": "table", "page": 6, "text": "TRX-101 dan TRX-104 Diterima; TRX-102 Menunggu Pemeriksaan; TRX-103 Ditolak." },
+        { "kind": "text", "page": 6, "text": "Total tagihan Rp35.000.000; diterima Rp18.000.000; sisa Rp17.000.000." }
+      ],
+      "ambiguity": "Nominal ditandai sebagai data contoh oleh sumber."
+    },
+    {
+      "id": "int-008",
+      "subject": "image:payment-p7",
+      "type": "payment.review_state_flow",
+      "value": {
+        "initial": "Menunggu Pemeriksaan",
+        "accepted": { "label": "Diterima", "effect": "Mengurangi sisa pembayaran" },
+        "rejected": { "label": "Ditolak", "requirement": "Alasan penolakan wajib dicatat" }
+      },
+      "sourceReferences": [
+        { "kind": "visualRegion", "id": "docling-visual-p7-3", "page": 7, "assetRef": "derived/a8d6fdf7-3df0-4ec3-a7c2-021fdc2a280e", "boundingBox": { "x": 79.382, "y": 89.983, "width": 436.532, "height": 163.894 } },
+        { "kind": "textBlock", "id": "docling-text-p6-103", "page": 6 },
+        { "kind": "textBlock", "id": "docling-text-p6-105", "page": 6 },
+        { "kind": "textBlock", "id": "docling-text-p6-106", "page": 6 }
+      ],
+      "evidence": [
+        { "kind": "imageRegion", "page": 7, "description": "Diagram bercabang dari Menunggu Pemeriksaan ke Diterima atau Ditolak." }
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "int-009",
+      "subject": "pilgrim:REG-2026-014",
+      "type": "pilgrim.document_review_snapshot",
+      "value": {
+        "registrationNumber": "REG-2026-014",
+        "name": "A. Rahman",
+        "departureStatus": "PENDAFTARAN AKTIF",
+        "documents": [
+          { "name": "KTP", "status": "Valid", "note": null },
+          { "name": "Kartu keluarga", "status": "Ditolak", "note": "Hasil scan kurang jelas" },
+          { "name": "Paspor", "status": "Valid", "note": null },
+          { "name": "Pas foto", "status": "Menunggu pemeriksaan", "note": "Menunggu verifikasi petugas" },
+          { "name": "Buku vaksinasi", "status": "Belum ada", "note": "Unggah berkas yang masih berlaku" }
+        ],
+        "lastReview": { "date": "14 Juli 2026", "time": "10:18", "actor": "Operations 02" }
+      },
+      "sourceReferences": [
+        { "kind": "visualRegion", "id": "docling-visual-p8-4", "page": 8, "assetRef": "derived/e9041fa4-2095-4171-8073-506009c5763d", "boundingBox": { "x": 49.842, "y": 99.858, "width": 494.831, "height": 273.945 } }
+      ],
+      "evidence": [
+        { "kind": "imageRegion", "page": 8, "description": "Rancangan UI pemeriksaan dokumen untuk REG-2026-014 dan A. Rahman." }
+      ],
+      "ambiguity": "Data pada UI secara eksplisit dinyatakan sebagai data contoh; waktu review tidak memiliki zona waktu."
+    },
+    {
+      "id": "int-010",
+      "subject": "pilgrim:REG-2026-014",
+      "type": "readiness.assessment",
+      "value": {
+        "status": "Terhambat",
+        "components": [
+          { "name": "Pembayaran", "condition": "Lunas", "evaluation": "Memenuhi" },
+          { "name": "Dokumen wajib", "condition": "Seluruhnya Valid", "evaluation": "Memenuhi" },
+          { "name": "Paspor", "condition": "Memenuhi ketentuan", "evaluation": "Memenuhi" },
+          { "name": "Visa", "condition": "Belum Disetujui", "evaluation": "Penghambat" },
+          { "name": "Asuransi", "condition": "Terbit", "evaluation": "Memenuhi" },
+          { "name": "Tiket", "condition": "Belum Terbit", "evaluation": "Penghambat" }
+        ],
+        "blockingReasons": ["Visa belum disetujui", "Tiket belum terbit"]
+      },
+      "sourceReferences": [
+        { "kind": "table", "id": "docling-table-p9-4", "page": 9 },
+        { "kind": "textBlock", "id": "docling-text-p9-159", "page": 9 },
+        { "kind": "textBlock", "id": "docling-text-p9-163", "page": 9 }
+      ],
+      "evidence": [
+        { "kind": "table", "page": 9, "text": "Visa | Belum Disetujui | Penghambat; Tiket | Belum Terbit | Penghambat" },
+        { "kind": "text", "page": 9, "text": "Apabila salah satu syarat belum terpenuhi, status jemaah menjadi Terhambat." }
+      ],
+      "ambiguity": null
+    },
+    {
+      "id": "int-011",
+      "subject": "image:readiness-p10",
+      "type": "manifest.eligibility_decision",
+      "value": { "readinessStatus": "Terhambat", "eligibleForFinalManifest": false, "reason": "Tidak semua syarat kesiapan terpenuhi" },
+      "sourceReferences": [
+        { "kind": "visualRegion", "id": "docling-visual-p10-5", "page": 10, "assetRef": "derived/b198c4f9-e155-4c8b-b7e2-43315bbc408f", "boundingBox": { "x": 75.706, "y": 87.942, "width": 443.723, "height": 155.54 } },
+        { "kind": "textBlock", "id": "docling-text-p9-166", "page": 9 }
+      ],
+      "evidence": [
+        { "kind": "imageRegion", "page": 10, "description": "Diagram keputusan menunjukkan Terhambat tidak dapat masuk manifest final." },
+        { "kind": "text", "page": 9, "text": "Hanya jemaah berstatus Siap yang dapat dimasukkan ke manifest final." }
+      ],
+      "ambiguity": null
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel-001",
+      "type": "schedule.quota_visualizes_table_snapshot",
+      "from": "image:capacity-p5",
+      "to": "schedule:SF-081",
+      "sourceReferences": [
+        { "kind": "visualRegion", "id": "docling-visual-p5-2", "page": 5, "assetRef": "derived/153792cf-7ac4-47e0-90db-f44a75a15a56" },
+        { "kind": "table", "id": "docling-table-p4-2", "page": 4 }
+      ],
+      "evidence": [
+        { "kind": "crossModal", "text": "SF-081 pada grafik memiliki nilai kuota 40 dan terdaftar aktif 34, sama dengan baris tabel." }
+      ],
+      "confidence": "high",
+      "ambiguity": null
+    },
+    {
+      "id": "rel-002",
+      "type": "schedule.quota_visualizes_table_snapshot",
+      "from": "image:capacity-p5",
+      "to": "schedule:SF-082",
+      "sourceReferences": [
+        { "kind": "visualRegion", "id": "docling-visual-p5-2", "page": 5, "assetRef": "derived/153792cf-7ac4-47e0-90db-f44a75a15a56" },
+        { "kind": "table", "id": "docling-table-p4-2", "page": 4 }
+      ],
+      "evidence": [
+        { "kind": "crossModal", "text": "SF-082 pada grafik memiliki nilai kuota 32 dan terdaftar aktif 32, sama dengan baris tabel." }
+      ],
+      "confidence": "high",
+      "ambiguity": null
+    },
+    {
+      "id": "rel-003",
+      "type": "schedule.quota_visualizes_table_snapshot",
+      "from": "image:capacity-p5",
+      "to": "schedule:SF-083",
+      "sourceReferences": [
+        { "kind": "visualRegion", "id": "docling-visual-p5-2", "page": 5, "assetRef": "derived/153792cf-7ac4-47e0-90db-f44a75a15a56" },
+        { "kind": "table", "id": "docling-table-p4-2", "page": 4 }
+      ],
+      "evidence": [
+        { "kind": "crossModal", "text": "SF-083 pada grafik memiliki nilai kuota 45 dan terdaftar aktif 19, sama dengan baris tabel." }
+      ],
+      "confidence": "high",
+      "ambiguity": null
+    },
+    {
+      "id": "rel-004",
+      "type": "readiness.blocked_by",
+      "from": "pilgrim:REG-2026-014",
+      "to": "requirement:visa",
+      "sourceReferences": [
+        { "kind": "table", "id": "docling-table-p9-4", "page": 9 }
+      ],
+      "evidence": [
+        { "kind": "tableRow", "page": 9, "text": "Visa | Belum Disetujui | Penghambat" }
+      ],
+      "confidence": "high",
+      "ambiguity": "Table tidak menyebut REG-2026-014; pengaitan ke pendaftaran berasal dari case example dan perlu dikonfirmasi jika digunakan sebagai production label."
+    },
+    {
+      "id": "rel-005",
+      "type": "readiness.blocked_by",
+      "from": "pilgrim:REG-2026-014",
+      "to": "requirement:ticket",
+      "sourceReferences": [
+        { "kind": "table", "id": "docling-table-p9-4", "page": 9 }
+      ],
+      "evidence": [
+        { "kind": "tableRow", "page": 9, "text": "Tiket | Belum Terbit | Penghambat" }
+      ],
+      "confidence": "high",
+      "ambiguity": "Table tidak menyebut REG-2026-014; pengaitan ke pendaftaran berasal dari case example dan perlu dikonfirmasi jika digunakan sebagai production label."
+    },
+    {
+      "id": "rel-006",
+      "type": "readiness.determines_manifest_eligibility",
+      "from": "pilgrim:REG-2026-014",
+      "to": "image:readiness-p10",
+      "sourceReferences": [
+        { "kind": "table", "id": "docling-table-p9-4", "page": 9 },
+        { "kind": "visualRegion", "id": "docling-visual-p10-5", "page": 10, "assetRef": "derived/b198c4f9-e155-4c8b-b7e2-43315bbc408f" }
+      ],
+      "evidence": [
+        { "kind": "crossModal", "text": "Visa dan tiket menjadi penghambat; diagram keputusan menyatakan Terhambat tidak dapat masuk manifest final." }
+      ],
+      "confidence": "high",
+      "ambiguity": null
+    }
+  ],
+  "evaluationNotes": {
+    "requiredChecks": [
+      "Semua sourceReferences menunjuk ke ID yang ada di NormalizedDocument/v1.",
+      "Semua assetRef visualRegion cocok dengan assetRef pada input.",
+      "Nilai remaining kuota dan pembayaran dapat dihitung ulang dari evidence.",
+      "Relasi cross-modal tidak boleh diterima jika salah satu source reference hilang.",
+      "Ambiguity harus dipertahankan untuk data UI atau table yang tidak secara eksplisit mengidentifikasi subjeknya."
+    ],
+    "knownLimitations": [
+      "Contoh Safara memakai data ilustrasi, bukan data operasional nyata.",
+      "Tabel kesiapan tidak memiliki identifier jemaah; relasi ke REG-2026-014 adalah label evaluasi draft.",
+      "Schema output final interpretation/relation belum diputuskan oleh project."
+    ]
+  }
+}

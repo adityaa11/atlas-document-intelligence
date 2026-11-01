@@ -1,0 +1,49 @@
+{
+  "datasetId": "inference-engine-golden-draft",
+  "datasetVersion": "0.1.0",
+  "status": "draft",
+  "schema": "inference-evaluation-draft/v1",
+  "caseCount": 1,
+  "cases": [
+    {
+      "caseId": "safara-professional-example-001",
+      "split": "golden-test",
+      "domain": "travel-umrah",
+      "language": "id",
+      "modalities": ["text", "table", "image"],
+      "input": {
+        "normalizedDocumentPath": "../../../project's goal/example/ndv1-safara-professional-example.json",
+        "normalizedDocumentVersion": "v1",
+        "originalPdfPath": "../../../project's goal/example/Safara_Buyer_Business_PRD_Professional.pdf",
+        "assets": [
+          {
+            "visualRegionId": "docling-visual-p3-1",
+            "assetRef": "derived/4ed9d136-d6e1-431f-97f0-c7167a5a35a3",
+            "filePath": "../../../project's goal/example/docling-visual-p3-1.png"
+          },
+          {
+            "visualRegionId": "docling-visual-p5-2",
+            "assetRef": "derived/153792cf-7ac4-47e0-90db-f44a75a15a56",
+            "filePath": "../../../project's goal/example/docling-visual-p5-2.png"
+          },
+          {
+            "visualRegionId": "docling-visual-p7-3",
+            "assetRef": "derived/a8d6fdf7-3df0-4ec3-a7c2-021fdc2a280e",
+            "filePath": "../../../project's goal/example/docling-visual-p7-3.png"
+          },
+          {
+            "visualRegionId": "docling-visual-p8-4",
+            "assetRef": "derived/e9041fa4-2095-4171-8073-506009c5763d",
+            "filePath": "../../../project's goal/example/docling-visual-p8-4.png"
+          },
+          {
+            "visualRegionId": "docling-visual-p10-5",
+            "assetRef": "derived/b198c4f9-e155-4c8b-b7e2-43315bbc408f",
+            "filePath": "../../../project's goal/example/docling-visual-p10-5.png"
+          }
+        ]
+      },
+      "expectedOutputPath": "expected-output.json"
+    }
+  ]
+}
